@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>school web page</title>
+    <style>
+        
+        * {
+            box-sizing: "content-box";
+            /* background-color: rgb(247, 246, 244); */
+            
+        }
+        header{
+            background-color: rgb(225, 131, 15);
+            padding: 50px;
+            text-align:center;
+            font-size: 40px;
+            color: rgb(9, 8, 7);
+            border-radius: 100px;
+            
+        }
+        nav{
+            list-style-type: none;
+            padding: 10px;
+        }
+        article{
+            padding-left: 40px;
+            float: left;
+            height: 150px;
+            width: 300px;
+            background-color: rgb(230, 159, 67);
+            text-align:left;
+            border-radius: 20px;
+        }
+        scetion::after{
+            content: "";
+            display: table;
+            clear: both;
+            border-radius: 100px;
+        }
+        footer {
+            background-color: black;
+            padding: 30px;
+            text-align:center;
+            font-size:10px;
+            color: rgb(227, 134, 12);
+            border-radius: 100px;
+        }
+
+       
+    </style>
+</head>
+<body>
+    <header>ALI FOUNDATION SCHOOL SYSTEM</header>
+    <SECTION>
+        <LI><A HREF="#">HOME</A></LI>
+        <li><a href="#">About me</a></li>
+        <li><a href="#">Course Group</a></li>
+        <li><a href="#">Course Selection</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Fee Structure</a></li>
+        <article >
+            <h1>New Student Admission Procedure</h1>
+
+            <p>Here is the complete discription of new cumers , <br> Who want to take admission in the new course selection.</p>
+
+
+        </article>
+    
+    </SECTION><br><br><br><br><br><br><br><br>
+        <FOOTER>
+            <h1><p>Go back to your home page.</p></h1>
+        </FOOTER>
+    
+</body>
+</html>

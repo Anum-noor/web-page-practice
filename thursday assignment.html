@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: antiquewhite;
+        }
+        p{
+            color: black;
+        }
+        h2{
+            border-bottom: 2px solid rgb(27, 27, 184);
+        }
+        .container{
+            color: aquamarine;
+            background-color: antiquewhite;
+            padding: 15px;
+            height: auto;
+            width: auto;
+        }
+        button{
+            background-color: blueviolet;
+            color: rgb(202, 120, 12);
+            border: 1px solid rgb(165, 187, 0);
+            padding: 5px;
+        }
+        :root{
+            --blue: #0f4a86;
+            --white:#ffffff;
+        }
+        body{
+            background-color: var(--blue);
+        }
+        h2{
+            color: rgb(221, 123, 4);
+            border-bottom: 2px solid var(--blue);
+        }
+        .container{
+            color: var(--blue);
+            background-color: var(--blue);
+            padding: 15px;
+        }
+        button{
+            background-color: rgb(4, 5, 5);
+            color: var(--blue);
+            /* border: 1px solid var(--blue); */
+            padding: 5px;
+        }
+        body{
+            background-color: pink;
+            color: black;
+        }
+        @media screen and (max-width:992px) {
+            body{
+                background-color: #1e90ff;
+                color: #ffffff;
+            }
+            
+        }
+        @media screen and (max-width:600px) {
+            body{
+                background-color: rgb(156, 156, 36);
+                color: rgb(125, 7, 7);
+            }
+            
+        }
+        .flex{
+            display: flex;
+            flex-direction: row-reverse;
+            flex-wrap: wrap-reverse;
+            background-color: aquamarine;
+
+        }
+        .flex>div{
+            background-color: #f1f1f1;
+            width: 100px;
+            margin: 10px;
+            text-align: center;
+            line-height: 75px;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Lawlessness</h2>
+        <p>In Pakistan, there is a lawlessness issue that is a social issue. On a smaller scale, the population does not respect traffic rules, i.e., breaking traffic signals. The 'one country, 2 rules' direction is tracked to a higher degree when influential people who commit vast sums of corruption get away scot-free. In comparison, the less fortunate are given a proper penalty for committing a minor offense. So, the lack of responsibility across the board and respect for the law is seriously tarnishing Pakistan's reputation on the international stage.</p>
+        <button>yes</button>
+        <button>no</button>
+    </div>
+
+    <div class="container">
+        <h2>Favoritism</h2>
+        <p>Partiality refers to the act of favoriting family members or friends, mainly through the offer of jobs. Nepotism is part of the type of fraud. Because of nepotism, worthy individuals cannot be acknowledged to universities or work. In the end, intelligent and talented people can't help the country in various fields. This is the reason Pakistan is behind in a lot of areas.</p>
+        <button>yes</button>
+        <button>no</button>
+    </div>
+
+    <!-- width:300px;
+    border:2px;
+    padding:5px;
+    margin:5px;
+    300+2+5+5+312px -->
+
+    <p><h2>Long Live Pakistan</h2></p>
+    <div class="flex">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+        <div>13</div>
+        <div>14</div>
+        <div>15</div>
+
+    </div>
+</body>
+</html>
